@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    reactStrictMode: true,
 
-export default nextConfig;
+    // Add basePath
+    basePath: '/github-pages',
+
+}
+
+module.exports = nextConfig
